@@ -1,14 +1,13 @@
 import Headers from '../src/components/Header'
 import Head from 'next/head'
+import { GoogleFonts } from 'next-google-fonts'
+
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
-    
-      </Head>
+    <>
+      <GoogleFonts href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap' />
+      <Head></Head>
       <Headers />
-    </div>
+    </>
   )
 }

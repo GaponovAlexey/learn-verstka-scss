@@ -1,0 +1,45 @@
+body {
+  font-family: 'Montserrat';
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-light {
+  background: #f9f6f1;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin-left: 52px;
+}
+
+.nav-link {
+  color: #212121;
+}
+/*# sourceMappingURL=myClass.css.map */

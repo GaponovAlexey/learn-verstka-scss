@@ -1,7 +1,9 @@
 import 'normalize.css'
-import '../styles/css/myclass.css'
+import '../styles/globals.css'
+import '../styles/fonts.css'
+import '../styles/css/myClass.css'
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return <Component {...pageProps} />
 }
 

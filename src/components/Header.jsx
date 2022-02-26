@@ -6,17 +6,17 @@ const Headers = () => {
           <nav>
             <ul className='nav'>
               <li className='nav-item'>
-                <a className='nav-link' href='!#'>
+                <a className='nav-link' href='#!'>
                   Для мужчин
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='!#'>
+                <a className='nav-link' href='#!'>
                   Для женщин
                 </a>
               </li>
               <li className='nav-item'>
-                <a className='nav-link' href='!#'>
+                <a className='nav-link' href='#!'>
                   Для детей
                 </a>
               </li>
@@ -25,12 +25,12 @@ const Headers = () => {
           <img src='./logo.svg' alt='logo' />
           <ul className='nav'>
             <li className='nav-item'>
-              <a className='nav-link' href='!#'>
+              <a className='nav-link' href='#!'>
                 Оплата
               </a>
             </li>
             <li className='nav-item'>
-              <a className='nav-link' href='!#'>
+              <a className='nav-link' href='#!'>
                 Доставка
               </a>
             </li>

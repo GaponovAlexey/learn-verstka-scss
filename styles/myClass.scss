@@ -1,6 +1,19 @@
-$color1: blue;
+$accent: #d7b399;
+$dark: #212121;
+$light: #f9f6f1;
+$grey: #cbcfd4;
+$light-grey: #f4f4f4;
+$dark-grey: #8d8d8d;
+$important: #d84033;
 
-div {
-  color: $color1;
-  font-size: 50px;
+.page-light {
+  background: $light;
+}
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
 }

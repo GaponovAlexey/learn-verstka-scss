@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAQA,AAAA,WAAW,CAAC;EACV,UAAU,EAPJ,OAAO;CAQd;;AACD,AAAA,QAAQ,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,MAAM;CACf;;AACD,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B",
+    "sources": [
+        "../myClass.scss"
+    ],
+    "names": [],
+    "file": "myClass.css"
+}

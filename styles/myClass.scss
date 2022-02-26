@@ -7,7 +7,7 @@ $dark-grey: #8d8d8d;
 $important: #d84033;
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -25,15 +25,75 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 126px;
 }
 .nav {
   display: flex;
   list-style: none;
   padding-left: 0;
   &-item {
-    margin-left: 52px;
+    margin-right: 52px;
   }
   &-link {
     color: $dark;
+  }
+}
+.nav-shop {
+  padding-left: 10px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  &-item {
+    flex: 0 0 50%;
+  }
+}
+
+.sale {
+  &-description {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+  }
+  &-title {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+  }
+  &-button {
+    background: $accent;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    border: none;
+  }
+}
+.box {
+  position: relative;
+  &-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    &-old {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: right;
+      letter-spacing: 0.05em;
+      text-decoration-line: line-through;
+      text-transform: uppercase;
+    }
+    &-new {
+      color: $important;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 51px;
+      text-align: right;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
   }
 }

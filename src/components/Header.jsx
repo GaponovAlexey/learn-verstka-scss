@@ -35,7 +35,10 @@ const Headers = () => {
               </a>
             </li>
           </ul>
-          <div>5</div>
+          <div>
+            <img className='nav-shop' src='/shop.svg' alt='shop-ico' />
+            <img className='nav-shop' src='/shop-count.svg' alt='shop-count' />
+          </div>
         </header>
       </div>
     </div>

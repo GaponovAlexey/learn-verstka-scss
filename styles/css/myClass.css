@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -25,6 +25,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 126px;
 }
 
 .nav {
@@ -36,10 +37,83 @@ a {
 }
 
 .nav-item {
-  margin-left: 52px;
+  margin-right: 52px;
 }
 
 .nav-link {
   color: #212121;
+}
+
+.nav-shop {
+  padding-left: 10px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+}
+
+.sale-description {
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+}
+
+.sale-title {
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: 0.04em;
+}
+
+.sale-button {
+  background: #d7b399;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px;
+  border: none;
+}
+
+.box {
+  position: relative;
+}
+
+.box-price {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box-price-old {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  text-transform: uppercase;
+}
+
+.box-price-new {
+  color: #d84033;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=myClass.css.map */
